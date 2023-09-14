@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Greyssenly - Test Case Import Jira - Create Profile with Valid Input
+Description: @Create Profile
+
+Feature: Create Profile
+
+As an unregistered user
+
+I want to be able to create a profile 
+
+so that I can login to access Bank Demo App
+
+
+@Valid 
+
+Scenario: Create Profile with Valid Input
+
+Given I am on the create profile page
+
+When I enter my valid first name “lala”, last name “lili”, country “canada”, username “lala”, password “lala123”, and confirm password “lala123”
+
+And I click the &quot;Create Profile&quot; button
+
+Then I should be redirected to login page
+
+#Examples:
+| First Name | Last Name | Country | Username | Password | Confirm Password |
+| lala             | lili               | canada  | lala            | lala123     | lala123                  |</description>
+   <name>MBP-5 Greyssenly - Test Case Import Jira - Create Profile with Valid Input</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0003b:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ksat08git.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/project/10003&quot;,&quot;key&quot;:&quot;MBP&quot;,&quot;id&quot;:10003,&quot;name&quot;:&quot;Mobile Based Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Greyssenly - Test Case Import Jira - Create Profile with Valid Input&quot;,&quot;description&quot;:&quot;@Create Profile\n\nFeature: Create Profile\n\nAs an unregistered user\n\nI want to be able to create a profile \n\nso that I can login to access Bank Demo App\n\n\n@Valid \n\nScenario: Create Profile with Valid Input\n\nGiven I am on the create profile page\n\nWhen I enter my valid first name “lala”, last name “lili”, country “canada”, username “lala”, password “lala123”, and confirm password “lala123”\n\nAnd I click the \&quot;Create Profile\&quot; button\n\nThen I should be redirected to login page\n\n#Examples:\n| First Name | Last Name | Country | Username | Password | Confirm Password |\n| lala             | lili               | canada  | lala            | lala123     | lala123                  |&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;greyslya07@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;greys lya&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3Aa288ae37-b76b-42cd-9670-e9825fb8a750&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;greyslya07@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;greys lya&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d712020%3Aa288ae37-b76b-42cd-9670-e9825fb8a750&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/MBP-5/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/10018&quot;,&quot;key&quot;:&quot;MBP-5&quot;,&quot;id&quot;:10018}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>d8a6fbc7-a5e6-48ed-ae3b-33429101672c</testCaseGuid>
+</TestCaseEntity>
