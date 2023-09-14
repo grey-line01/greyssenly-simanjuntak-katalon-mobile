@@ -22,4 +22,4 @@ Then I should be redirected to login page
 
 #Examples:
 | First Name | Last Name | Country | Username | Password | Confirm Password |
-| lala             | lili               | canada  | lala            | lala123     | lala123                  |
+| lala       | lili      | canada  | lala     | lala123  | lala123          |
