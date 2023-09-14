@@ -23,13 +23,11 @@ Mobile.tap(findTestObject('Object Repository/AddAccount/btn_ADD ACCOUNT'), 0)
 
 Mobile.setText(findTestObject('Object Repository/AddAccount/inpt_Account Name'), 'lalabank', 0)
 
-Mobile.setText(findTestObject('Object Repository/AddAccount/inpt_Initial Balance (Optional)'), '50000', 
-    0)
+Mobile.setText(findTestObject('Object Repository/AddAccount/inpt_Initial Balance (Optional)'), '50000', 0)
 
 Mobile.tap(findTestObject('Object Repository/AddAccount/btn_ADD'), 0)
 
-Mobile.getText(findTestObject('Object Repository/AddAccount/txt_Select an Account to view Transactions'), 
-    0)
+Mobile.getText(findTestObject('Object Repository/AddAccount/txt_Select an Account to view Transactions'), 0)
 
 Mobile.tap(findTestObject('Object Repository/AddAccount/btn_added account'), 0)
 
