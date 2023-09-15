@@ -17,6 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\USER\\Desktop\\FINALPROJECTS2010161213281-220627-220853 (1)\\FINAL PROJECTS\\MOBILE\\app-debug.apk', 
-    true)
+Mobile.startApplication('C:\\Users\\USER\\Katalon Studio\\katalon-mobile\\APP\\app-debug.apk', true)
 

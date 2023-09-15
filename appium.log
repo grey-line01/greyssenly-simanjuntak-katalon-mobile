@@ -1,32 +1,32 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 53928
+[35m[Appium][39m   port: 63292
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\USER\AppData\Local\Temp\\Katalon\Appium\Temp1694699763176
-[35m[Appium][39m   chromedriverPort: 53929
+[35m[Appium][39m   tmpDir: C:\Users\USER\AppData\Local\Temp\\Katalon\Appium\Temp1694736619569
+[35m[Appium][39m   chromedriverPort: 63294
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 53929
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53928
+[35m[Appium][39m   chromedriverPort: 63294
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:63292
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m11 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m12 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\USER\\Desktop\\FINALPROJECTS2010161213281-220627-220853 (1)\\FINAL PROJECTS\\MOBILE\\app-debug.apk","noReset":true,"deviceName":"vivo vivo 1902 (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"WCYTLFMJORU4UOMZ","systemPort":53936},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\USER\\Desktop\\FINALPROJECTS2010161213281-220627-220853 (1)\\FINAL PROJECTS\\MOBILE\\app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"vivo vivo 1902 (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":53936,"appium:udid":"WCYTLFMJORU4UOMZ"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\USER\\Katalon Studio\\katalon-mobile\\APP\\app-debug.apk","noReset":true,"deviceName":"vivo vivo 1902 (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"WCYTLFMJORU4UOMZ","systemPort":63311},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\USER\\Katalon Studio\\katalon-mobile\\APP\\app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"vivo vivo 1902 (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":63311,"appium:udid":"WCYTLFMJORU4UOMZ"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 527c77a5-8973-4e5c-a6b8-743bcb53ea16
-[35m[BaseDriver][39m Using local app 'C:\Users\USER\Desktop\FINALPROJECTS2010161213281-220627-220853 (1)\FINAL PROJECTS\MOBILE\app-debug.apk'
+[35m[BaseDriver][39m Session created with session id: 50744e7a-a4b0-4a51-b5bf-185d523f5ee2
+[35m[BaseDriver][39m Using local app 'C:\Users\USER\Katalon Studio\katalon-mobile\APP\app-debug.apk'
 [35m[ADB][39m Found 3 'build-tools' folders under 'C:\Users\USER\AppData\Local\Android\Sdk' (newest first):
 [35m[ADB][39m     C:/Users/USER/AppData/Local/Android/Sdk/build-tools/33.0.1
 [35m[ADB][39m     C:/Users/USER/AppData/Local/Android/Sdk/build-tools/33.0.0
@@ -44,20 +44,13 @@
 [35m[ADB][39m 'C:\Users\USER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
 [35m[UiAutomator2][39m Server packages are not going to be (re)installed
 [35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-[35m[ADB][39m 'C:\Users\USER\Desktop\FINALPROJECTS2010161213281-220627-220853 (1)\FINAL PROJECTS\MOBILE\app-debug.apk' is signed with a non-default certificate
-[35m[ADB][39m The application at 'C:\Users\USER\Desktop\FINALPROJECTS2010161213281-220627-220853 (1)\FINAL PROJECTS\MOBILE\app-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[35m[ADB][39m The installation of 'app-debug.apk' took 5545ms
+[35m[ADB][39m 'C:\Users\USER\Katalon Studio\katalon-mobile\APP\app-debug.apk' is signed with a non-default certificate
+[35m[ADB][39m The application at 'C:\Users\USER\Katalon Studio\katalon-mobile\APP\app-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'app-debug.apk' took 7020ms
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
 [35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\USER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\USER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[WD Proxy][39m socket hang up
-[35m[UiAutomator2][39m The instrumentation process has been unexpectedly terminated. Retrying UiAutomator2 startup (#1 of 1)
-[35m[ADB][39m No 'uiautomator' process has been found
-[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
@@ -68,38 +61,38 @@
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.example.mikebanks.bankscorpfinancial/com.example.mikebanks.bankscorpfinancial.LaunchActivity and waiting for 'com.example.mikebanks.bankscorpfinancial/com.example.mikebanks.bankscorpfinancial.LaunchActivity'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 527c77a5-8973-4e5c-a6b8-743bcb53ea16 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m32258 ms - 1401[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 50744e7a-a4b0-4a51-b5bf-185d523f5ee2 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m26887 ms - 1317[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16 [39m[32m200[39m [90m28 ms - 1355[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2 [39m[32m200[39m [90m34 ms - 1271[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16 [39m[32m200[39m [90m24 ms - 1355[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2 [39m[32m200[39m [90m28 ms - 1271[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2/timeouts [39m[32m200[39m [90m4 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (527c77a5)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId e537cda1-e7e8-4d62-b640-b3bbc18a8e90 with 527c77a5-8973-4e5c-a6b8-743bcb53ea16
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16/source [39m[32m200[39m [90m563 ms - 10606[39m
+[35m[W3C (50744e7a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 42ccfbe8-17d6-41af-8e19-afb3219cac20 with 50744e7a-a4b0-4a51-b5bf-185d523f5ee2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2/source [39m[32m200[39m [90m341 ms - 10606[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16/screenshot [39m[32m200[39m [90m727 ms - 69190[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2/screenshot [39m[32m200[39m [90m584 ms - 69732[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 527c77a5-8973-4e5c-a6b8-743bcb53ea16 from our master session list
+[35m[Appium][39m Removing session 50744e7a-a4b0-4a51-b5bf-185d523f5ee2 from our master session list
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/527c77a5-8973-4e5c-a6b8-743bcb53ea16 [39m[32m200[39m [90m490 ms - 14[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/50744e7a-a4b0-4a51-b5bf-185d523f5ee2 [39m[32m200[39m [90m642 ms - 14[39m
 [35m[HTTP][39m [90m[39m
